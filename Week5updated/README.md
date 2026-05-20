@@ -1,49 +1,32 @@
-## OverView
-This Directory contains four beginner-friendly frontend development projects created using HTML, CSS, React JS, Tailwind CSS, and Vite.
-These projects demonstrate important frontend concepts such as:
+Week 5: CSS Layouts & Introduction to React
 
-HTML structure\
-CSS styling\
-Flexbox layouts\
-Tables\
-React components\
-Props\
-Hooks\
-Dynamic rendering\
-Tailwind CSS
-### Programs Included
-1. Flexbox Layout
-2. Tables
-3. Product-react-app
-4. User-Details-react-app
-### Technologies Used
-HTML\
-CSS\
-JavaScript (ES6)\
-React JS\
-Tailwind CSS
-#### Technologies Used For Vite
-React JS\
-Vue JS\
-Vanilla JavaScript\
-Tailwind CSS
-### How to Run the Project
-Step 1: Install Node.js\
-  node -v\
-Step 2: Open VS Code\
-  Open Terminal\
-Step 3: Create a Vite Project\
-  npm create vite@latest\
-Step 4: Enter Project Name\
-  project name: my-react-app\
-Step 5: Select Framework\
-  React\
-Step 6: Select Variant\
-  JavaScript\
-Step 7: Move Into Project Folder\
-Step 8: Install Dependencies\
-Step 9: Start Development Server\
-  npm run dev\
-Step 10: Open in Browser\
-  Local: http://localhost:5173/
-Vite
+This week was mostly about learning how to layout web pages properly using CSS and then getting started with React. I went through Flexbox, CSS Grid, tables, and the basics of setting up a React project.
+
+Day 12: CSS Flexbox
+The main focus here was Flexbox. I practiced how to align items inside a container, how to use flex-direction to change layouts from rows to columns, and how to use justify-content and align-items to center things.
+
+flex.html : Built simple layouts with images and text to see how elements behave when the screen size changes using Flexbox properties.
+
+layout.html : Created responsive page layouts using Flexbox for arranging content in rows and columns.
+
+layout1.html : Practiced more complex Flexbox layouts with different alignments and spacing between elements.
+
+style1.css : Styling file that works with layout.html to define Flexbox properties, colors, fonts, and spacing for the webpage
+
+Day 13: More Layouts with Flex, Grid, and Tables
+On day 13 I moved on to CSS Grid and HTML tables. Grid is really helpful for making more complex layouts that have both rows and columns at the same time.
+
+table1.html : Created a basic HTML table with structured rows and columns for displaying tabular data.
+
+table1.css : Styling file for table1.html including borders, padding, background colors, and hover effects.
+
+table2.html : Built an advanced HTML table with merged cells using colspan and rowspan for complex data presentation.
+
+table2.css : Styling file for table2.html with alternating row colors, font styling, and responsive table design.
+
+table3.html : Created a data table with sorting and filtering capabilities or styled pricing/product table layout
+
+table3.css : Styling file for table3.html with modern table design including header styling, striped rows, and hover effects.
+
+grid.html : Created a layout using CSS Grid to practice grid-template-columns, grid-template-rows, and gaps between items. Also did some more work with Flexbox to make sure I understood the difference between the two and when to use which one.
+
